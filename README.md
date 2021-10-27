@@ -1,4 +1,8 @@
-# Dashboard
+# ng-dummy-dashboard
+
+![Screenshot 2021-10-27 at 11 43 56 AM](https://user-images.githubusercontent.com/73573652/139010970-c7376c48-6f98-42f0-8a9b-c0d2475d2a36.png)
+<br>
+<br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
