@@ -1,31 +1,36 @@
-# ng-dummy-dashboard
+# 📊 Angular Admin Dashboard
 
-![Screenshot 2021-10-27 at 11 43 56 AM](https://user-images.githubusercontent.com/73573652/139010970-c7376c48-6f98-42f0-8a9b-c0d2475d2a36.png)
-<br>
-<br>
+**A responsive admin dashboard built with Angular 12 and Angular Material, with interactive amCharts visualisations.**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+![Angular](https://img.shields.io/badge/Angular_12-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Angular Material](https://img.shields.io/badge/Angular_Material-757575?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![amCharts](https://img.shields.io/badge/amCharts_4-67B7DC?style=flat-square)
 
-## Development server
+## ✨ Features
+- **Default layout** with a header, collapsible sidebar, and footer, using Angular Material and Flex Layout
+- **Dashboard** with **amCharts 4** line charts (XY with category and value axes, bullets, legend) and a **pie chart**
+- Summary cards in a Material **grid list**, plus a data table built with Angular Material
+- **Feature modules** (dashboard, posts) and a **shared module** for reusable components (header, sidebar, footer, card)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 🛠️ Tech Stack
+Angular 12 · TypeScript · Angular Material + CDK · Angular Flex Layout · amCharts 4 · SCSS
 
-## Code scaffolding
+## 🚀 Getting Started
+```bash
+npm install
+npx ng serve   # http://localhost:4200
+npx ng test    # unit tests (Karma + Jasmine)
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📂 Structure
+```
+src/app/
+├── layouts/default/        # shell: header + sidebar + content + footer
+├── modules/dashboard/      # charts, cards, table
+├── modules/posts/          # posts page (placeholder)
+└── shared/                 # header, sidebar, footer, card components
+```
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+Made by [Shikhar Jaiswal](https://github.com/shikharskj)
